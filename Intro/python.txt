@@ -1,0 +1,7 @@
+The difference between pip list and pip freeze is that freeze outputs installed packages in requirement format so that it can be saved to file and used as an installation requirement resource for an application. List is simply a reference to see the installed packages and while it is the same information it is formatted for easier reading and not meant to be called as a recursive installation guide.
+
+Pip is a package installation manager that automatically checks version control based on current versions of other dependencies.
+
+For my mac, I generally have to run most of these commands as superuser do (sudo) otherwise they will not work.
+
+I also have idle and the python launcher installed which I often use.
