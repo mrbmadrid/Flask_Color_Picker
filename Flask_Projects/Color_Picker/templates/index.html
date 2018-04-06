@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Color Picker</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body style="background:{{color}}">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<form action="/submit" method='post'>
+						<div class="row">
+							<div class="col-md-6">
+								<p>Red:</p>
+								<p>Blue:</p>
+								<p>Green</p>
+							</div>
+							<div class='col-md-6'>
+								<input type="number" name="red">
+								<input type="number" name="blue">
+								<input type="number" name="green">
+								<input type="submit" name="Submit">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
